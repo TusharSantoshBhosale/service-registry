@@ -3,7 +3,7 @@ FROM openjdk:17-jdk-alpine
 
 WORKDIR /app
 
-COPY target/ServiceRegistry-0.0.1-SNAPSHOT.jar /app/ServiceRegistry.jar
+COPY ServiceRegistry-0.0.1-SNAPSHOT.jar /app/ServiceRegistry.jar
 
 
 EXPOSE 8761
